@@ -35,8 +35,6 @@ class App extends Component {
         this.setState({ currentUser: userAuth });
       }
     });
-
-    console.log(this.state);
   }
 
   componentWillUnmount() {
